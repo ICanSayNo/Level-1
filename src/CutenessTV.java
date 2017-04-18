@@ -14,6 +14,9 @@ public class CutenessTV implements ActionListener {
 		JButton meme;
 		JButton Trump;
 		JButton jerry;
+		JButton sparta;
+		JButton lols;
+		JButton thomas;
 		String lol;
 		JPanel stuffholder=new JPanel();
 		JLabel numbers=new JLabel();
@@ -27,28 +30,43 @@ void showButton(){
 
 	buttin=new JButton();
 	buttin.setSize(200, 60);
-	buttin.setText("press 4 vid");
+	buttin.setText("derp, derpity derp");
 	jeff=new JButton();
 	jeff.addActionListener(this);
 	jeff.setSize(200, 60);
-	jeff.setText("press 4 vid");
+	jeff.setText("do u wanna build a wall?");
 	meme=new JButton();
 	meme.addActionListener(this);
 	meme.setSize(200, 60);
-	meme.setText("press 4 vid");
+	meme.setText("illuminatissss");
 	Trump=new JButton();
 	Trump.addActionListener(this);
 	Trump.setSize(200, 60);
-	Trump.setText("press 4 vid");
+	Trump.setText("teh duck song");
 	jerry=new JButton();
 	jerry.addActionListener(this);
 	jerry.setSize(200, 60);
-	jerry.setText("press 4 vid");
+	jerry.setText("This are jeffpardy");
+	sparta=new JButton();
+	sparta.addActionListener(this);
+	sparta.setSize(200, 60);
+	sparta.setText("dis r sperta");
+	lols=new JButton();
+	lols.addActionListener(this);
+	lols.setSize(200, 60);
+	lols.setText("bing bong");
+	thomas=new JButton();
+	thomas.addActionListener(this);
+	thomas.setSize(200, 60);
+	thomas.setText("choo choo bruh");
 	stuffholder.add(buttin);
 	stuffholder.add(jeff);
 	stuffholder.add(meme);
 	stuffholder.add(Trump);
 	stuffholder.add(jerry);
+	stuffholder.add(sparta);
+	stuffholder.add(lols);
+	stuffholder.add(thomas);
 	donaldJTrump.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	buttin.addActionListener(this);
 	donaldJTrump.setVisible(true);
@@ -72,6 +90,15 @@ public void actionPerformed(ActionEvent arg0) {
 	}
 	if(buttonPressed==jerry){
 		playVideo("9g3--WYH8SY&t=5s");
+	}
+	if(buttonPressed==sparta){
+		playVideo("eZeYVIWz99I");
+	}
+	if(buttonPressed==lols){
+		playVideo("E08GwewVl9E");
+	}
+	if(buttonPressed==thomas){
+		playVideo("b8HO6hba9ZE");
 	}
 }
 void playVideo(String videoID) {
