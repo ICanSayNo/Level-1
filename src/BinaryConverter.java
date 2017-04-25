@@ -52,3 +52,23 @@ public class BinaryConverter implements ActionListener{
 	}
 
 }
+
+//s
+//m
+//a
+//r
+//t
+//y
+//p
+//a
+//n
+//t
+//s
+
+//n
+//e
+//r
+//d
+//s
+//4
+//u
