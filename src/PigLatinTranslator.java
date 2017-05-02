@@ -18,7 +18,7 @@ import javax.swing.JTextField;
 
 //--------------------------------------------------------------------
 
-public class PigLatinTranslator {
+public class PigLatinTranslator implements ActionListener{
 	JFrame frame1;
 	JPanel panel1;
 	JTextField text1;
@@ -35,7 +35,7 @@ public class PigLatinTranslator {
 		text1=new JTextField(20);
 		text2=new JTextField(20);
 		button1=new JButton("Cuvrt teh werds boiiis");
-		button1.addActionListener((ActionListener) this);
+		button1.addActionListener(this);
 		panel1.add(text1);
 		panel1.add(button1);
 		panel1.add(text2);
