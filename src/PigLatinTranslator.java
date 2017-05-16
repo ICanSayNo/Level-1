@@ -115,7 +115,13 @@ public class PigLatinTranslator implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
+		translate(getText(text1));
 		
+	}
+
+	private String getText(JTextField text12) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
