@@ -90,7 +90,7 @@ if(random==9){
 	speak("welcom to the nugget cave");
 }
 if(random==10){
-	speak("lik if u cri evrtim");
+	speak("like if you cree evr tim");
 }
 if(random==11){
 	speak("meme");
